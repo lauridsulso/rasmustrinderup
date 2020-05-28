@@ -1,0 +1,2788 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+/*TAK FOR BESKED--------------------------------------------------*/
+
+#takforbesked {
+    text-align: center;
+    position: relative;
+    top: 500px;
+    font-family: oswald;
+    letter-spacing: 10px;
+    font-size: 5em;
+}
+
+/*FORSIDE START--------------------------------------------------------------------------*/
+
+
+.bgimg {
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg {
+    background-image: url("/img/forside-stor.png");
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+#venstreside {
+    margin-left: 2%;
+}
+
+#polaroid {
+    width: 350px;
+    margin: 5%;
+    opacity: 0.5;
+}
+
+#hojreside {
+    margin-right: 5%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    padding-top: 20%;
+    width: 35%;
+    margin-left: 25%;
+    margin-bottom: 15%;
+    align-items: center;
+}
+
+#logo2 {
+    width: 70%;
+    margin-bottom: 10%;
+}
+
+#knapogtekstvenstre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 15%;
+
+}
+
+#freelancetekst {
+    font-size: 1.3em;
+    color: white;
+    font-family: oswald;
+    font-weight: 100;
+    width: 300px;
+    font-style: italic;
+}
+
+#tjekminsideudher {
+    font-weight: 700;
+}
+
+#venstresideflex {
+    display: flex;
+    position: relative;
+    bottom: 80px;
+}
+
+
+/*TEKST FORSIDE----------------------------------------------------------------*/
+
+#rasguitartekst {
+    font-size: 1.3em
+}
+
+#rasguitartekst2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* KNAPPER FORSIDE-------------------------------------------------------------- */
+
+a {
+    text-decoration: none;
+}
+
+#button:visited {
+    text-decoration: none;
+}
+
+#button {
+    display: flex;
+    align-content: flex-start;
+    width: 150px;
+    margin-bottom: 20%;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 40px;
+
+    padding: 9px 37px;
+    color: black;
+    font-size: 18px;
+    background-color: #facd02;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#button:hover {
+    background-color: #396872;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#button2 {
+    display: flex;
+    align-content: center;
+    width: 150px;
+    margin-top: 20%;
+
+
+    line-height: 40px;
+    padding: 9px 37px;
+    color: white;
+    font-size: 18px;
+    background-color: #396872;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#button2:hover {
+    background-color: #facd02;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+/*FREELANCE START---------------------------------------------*/
+
+/* VIDEO-------------------------------------------------------*/
+
+#myvideo {
+    position: relative;
+    margin-left: 2.5%;
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    height: 75%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#baggrundfreelance {
+    background: url(/img/freelance-baggrund.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 1;
+    z-index: 1;
+}
+
+
+/*NAVIGATION FREELANCE---------------------------------------------------------*/
+
+
+#freelanceheader {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: url(/img/freelance-baggrund.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    opacity: 1;
+    z-index: 1;
+    width: 100%;
+}
+
+#freelancenav {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    margin-right: 2%;
+    position: fixed;
+
+
+    width: 100%;
+    z-index: 2;
+}
+
+#headerlogofreelance {
+    width: 5%;
+    position: absolute;
+    right: 91.499%;
+    bottom: 10%;
+}
+
+.nav_links_freelance {
+    list-style: none;
+    color: white;
+    margin-right: 2.5%;
+}
+
+header a {
+    color: white;
+    font-size: 1.3em;
+}
+
+.nav_links_freelance li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: auto;
+
+}
+
+.nav_links_freelance a {
+    transition: all 0.3s ease 0s
+}
+
+.nav_links_freelance a:hover {
+    color: orange;
+}
+
+
+#buttonnav button {
+
+    width: 150px;
+
+    cursor: pointer;
+    text-decoration: none;
+
+
+    padding: 7px 37px;
+    color: darkslategrey;
+    font-size: 18px;
+    background-color: #ffcd02;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#buttonnav button:hover {
+    background-color: rgba(255, 205, 2, 0.7);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+/*FREELANCE BILLEDESIDE START-------------------------------*/
+#trinderuplogo {
+    width: 25%;
+    margin-bottom: -5%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#freelanceflex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+
+}
+
+#freelanceflex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: -2%;
+}
+
+#freelanceflex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#freelanceflex4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#freelanceflex5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.billederfreelance {
+    width: 100%;
+}
+
+.billederfreelance:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+
+}
+
+#billede1 {
+    position: relative;
+    bottom: 150px;
+    width: 70%;
+}
+
+#billede2 {
+    width: 70%;
+    margin-left: 20%;
+}
+
+#billede3 {
+    width: 70%;
+    margin-left: -17.5%;
+}
+
+#billede4 {
+    width: 60%;
+    margin-left: 5%;
+}
+
+#billede5 {
+    width: 70%;
+    margin-right: 7%;
+    margin-bottom: 10%;
+}
+
+.billedertekst {
+    color: #cacaca;
+    font-size: 1.2em;
+    margin: 5%;
+    width: 58%;
+    text-align: justify;
+}
+
+.billedertekst2 {
+    color: #cacaca;
+    font-size: 1.5em;
+    margin-bottom: -4%;
+    width: 50%;
+    text-align: justify;
+}
+
+#tekst1 {
+    margin-left: 10%;
+}
+
+#tekst2 {
+    margin-left: 25%;
+    width: 50%;
+}
+
+#tekst3 {
+    margin-left: 15%;
+    width: 50%
+}
+
+#tekst4 {
+    margin-left: 25%;
+    width: 50%;
+}
+
+#tekst5 {
+    margin-left: 15%;
+    width: 50%;
+}
+
+.freelanceoverskrifter {
+    margin-left: 25%;
+    width: 50%;
+    font-family: oswald;
+    color: #facd02;
+    font-size: 2.2em
+}
+
+#hr1 {
+    width: 50%;
+    position: relative;
+    color: #facd02;
+    border: 1px solid #facd02;
+    margin-bottom: -4.5%;
+    margin-top: -1%;
+}
+
+.freelanceoverskrifter2 {
+    margin-left: 15%;
+
+    font-family: oswald;
+    color: #facd02;
+    font-size: 2.2em
+}
+
+#hr2 {
+    width: 50%;
+    margin-right: 35%;
+    color: #facd02;
+    border: 1px solid #facd02;
+    margin-bottom: -4%;
+}
+
+
+
+/*GEARLISTE START---------------------------------------------*/
+#gearliste {
+    background: url(/img/gearliste-baggrund4.png);
+
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: auto;
+    top: -255px;
+    margin-left: -1.5%;
+    margin-bottom: -350px;
+    height: 1450px;
+}
+
+#gearlistebillede {
+
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 250px;
+}
+
+#hr3 {
+    width: 90%;
+    border: 1.5px solid #cacaca;
+    margin-top: 12%;
+}
+
+
+#gearlisteoverskrift {
+    position: relative;
+    top: 16%;
+    color: #303334;
+    font-family: oswald;
+    font-size: 2em;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+
+
+.nav_links_gear {
+    position: relative;
+    left: 0px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-family: oswald;
+    font-weight: 700;
+    color: #303334;
+    text-align: left;
+}
+
+.nav_links_gear li {
+    position: relative;
+    left: 20%;
+}
+
+.geartekst {
+    width: 65%;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    font-family: oswald;
+    font-weight: 200;
+}
+
+/*GEARSIDE SLUT----------------------------------------------------------*/
+
+
+#linkhertil {
+    margin-bottom: 1%;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+#baggrundfreelance2 {
+    background: url(/img/freelance-baggrund.png);
+    margin-top: -5%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    z-index: 1;
+}
+
+#gearlistebillede2 {
+
+    width: 50%;
+
+}
+
+
+
+#klikfreelance {
+    text-align: center;
+    position: relative;
+    top: 70px;
+
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 50px;
+    color: #cacaca;
+    letter-spacing: 9px;
+}
+
+#pil {
+    position: relative;
+
+}
+
+#klik {
+    color: #facd02;
+}
+
+
+.videoer {
+    width: 80%;
+}
+
+.videoer:hover {
+    cursor: pointer;
+}
+
+
+#videoerflex {
+    display: flex;
+    margin-top: 8%;
+    width: 100%;
+    justify-content: space-around;
+
+
+}
+
+.youtubevideoer {
+    display: flex;
+    width: 800px;
+    height: 500px;
+}
+
+.tutorialstekst {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: merriweather sans;
+    width: 80%;
+    font-size: 2em;
+
+}
+
+.tutorialstekst2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: merriweather sans;
+
+    font-size: 2em;
+    width: 80%;
+
+}
+
+#somelinks {
+    margin: auto;
+    width: 90%;
+}
+
+#somelinks li:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+    position: relative;
+}
+
+#somelinks li {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    top: 50px;
+
+
+}
+
+#somelinks img {
+    width: 30%;
+
+}
+
+#freelanceflex6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+
+}
+
+
+#billede6 {
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+#tekst6 {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 50px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#trinderuplogobund {
+    width: 50%;
+    position: relative;
+    left: 20%;
+    bottom: 25%;
+}
+
+
+/*RASGUITAR START--------------------------------------------------------------------------------*/
+
+#rasguitarheader {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: url(/img/freelance-baggrund.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    opacity: 1;
+    z-index: 1;
+    width: 100%;
+}
+
+#rasguitarnav {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    margin-right: 2%;
+    position: fixed;
+    box-shadow: 5px 6px 26px gray;
+    width: 100%;
+    z-index: 2;
+}
+
+#headerlogorasguitar {
+    width: 7%;
+    position: absolute;
+    right: 90.249%;
+    bottom: 13%;
+}
+
+.nav_links_rasguitar {
+    list-style: none;
+    color: black;
+    margin-right: 2.5%;
+}
+
+
+
+.nav_links_rasguitar li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: auto;
+
+}
+
+.nav_links_rasguitar a {
+    transition: all 0.3s ease 0s
+}
+
+.nav_links_rasguitar li a {
+    color: black;
+}
+
+.nav_links_rasguitar a:hover {
+    color: #facd02;
+}
+
+
+#buttonnav2 button {
+
+    width: 150px;
+
+    cursor: pointer;
+    text-decoration: none;
+
+
+    padding: 7px 37px;
+    color: darkslategrey;
+    font-size: 18px;
+    background-color: #ffcd02;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#buttonnav2 button:hover {
+    background-color: rgba(255, 205, 2, 0.7);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*HVORFOR RASGUITAR------------------------------------------*/
+
+#ledningflex {
+    display: flex;
+}
+
+#ledning {
+    width: 50%;
+    position: relative;
+    right: 50px;
+}
+
+#rasguitaroverskrift {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 7em;
+    font-weight: 100;
+    position: relative;
+    width: 100%;
+    right: 340px;
+    margin-bottom: -5%;
+
+}
+
+
+#rasguitaroverskrift2 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3em;
+    font-weight: 100;
+    position: relative;
+    width: 35ch;
+    right: 230px;
+}
+
+#ikonliste {
+    list-style: none;
+    position: relative;
+    right: 50%;
+}
+
+.ikoner {
+    width: 10%;
+    position: relative;
+    right: 200px;
+}
+
+#rasguitarpolaroid {
+    width: 50%;
+    margin-left: 5%;
+    position: relative;
+    bottom: 50px;
+}
+
+#polaroidflex {
+    display: flex;
+}
+
+.listetekst {
+    width: 60ch;
+    position: relative;
+    bottom: 100px;
+    font-weight: 700;
+}
+
+
+/*DIGITAL UNDERVISNING----------------------------------------------------------*/
+
+#digitalundervisning {
+    background: url(/img/gronbaggrund.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 1200px;
+    margin-left: -2%;
+
+}
+
+#digitalundervisningoverskrift {
+    font-size: 2.852212322em;
+    text-align: center;
+    font-family: oswald;
+    color: white;
+    letter-spacing: 10px;
+    position: relative;
+    top: 150px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#digitalundervisningtekst {
+    color: white;
+    position: relative;
+    top: 150px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.3em;
+
+
+}
+
+
+#rasguitarknap {
+    display: flex;
+    align-content: center;
+    width: 150px;
+    z-index: 1;
+
+
+
+    padding: 9px 37px;
+    color: #396872;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    box-shadow: 5px 10px #ffcd02;
+    position: relative;
+    left: 45%;
+    top: 200px;
+}
+
+#rasguitarknap:hover {
+    background-color: gainsboro;
+    font-family: 'Oswald', sans-serif;
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+
+
+.videoerrasguitar {
+    width: 80%;
+    margin-top: 20%;
+    z-index: 5;
+}
+
+
+.videoerrasguitar:hover {
+    cursor: pointer;
+}
+
+
+#videoerrasguitarflex {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 90%;
+}
+
+
+.mailto {
+    text-decoration: none;
+    color: #cacaca;
+}
+
+.mailto:hover {
+    text-decoration: none;
+    color: #facd02;
+    transform: scale(1.5);
+    transition: transform .4s;
+
+}
+
+
+/*ANMELDELSER START---------------------------------------------------------------*/
+
+#anmeldelser {
+    background: url(/img/hvid-baggrund.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+#tidligereelever {
+    font-family: oswald;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -2%;
+    font-size: 2.85em;
+    letter-spacing: 5px;
+    text-shadow: 1.5px 1.5px 5px grey;
+}
+
+
+#anmeldelserflex {
+    display: flex;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.annaogkasper {
+    width: 300px;
+}
+
+#annaflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: -500px;
+}
+
+#kasperflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+
+
+#annatekst {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.4em;
+
+}
+
+#kaspertekst {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.4em;
+
+}
+
+.tegn {
+    font-size: 4em;
+}
+
+/*opsumering SIDE----------------------------------------------------------------------*/
+
+#opsummering {
+    background: url(/img/opsumbaggrund.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+
+.opsumeroverskrift {
+    font-family: just another hand;
+    font-weight: 200;
+    font-size: 4em;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 360px;
+    text-align: center;
+}
+
+#opsumbilled {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    right: 5%;
+
+}
+
+#opsumikonerflex1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 300px;
+    right: 120px;
+}
+
+#opsumikonerflex2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+
+}
+
+#ikonerogtekst1 {
+    display: flex;
+    position: relative;
+    right: 18%;
+    align-items: center;
+    color: white
+}
+
+#ikonerogtekst1 img {
+
+    margin-left: 5%;
+
+}
+
+#ikonerogtekst2 {
+    display: flex;
+    position: relative;
+    left: 21%;
+    align-items: center;
+    color: white;
+
+}
+
+#ikonerogtekst2 img {
+
+    margin-right: 5%;
+
+}
+
+.opsummeringikoner {
+    width: 15%;
+}
+
+#ikon5 {
+    display: flex;
+    position: relative;
+    top: 200px;
+    width: 70px;
+    right: 24.5%;
+
+}
+
+.opsumtekst {
+    font-family: oswald;
+    font-weight: 100;
+}
+
+.opsumtekst2 {
+    font-family: oswald;
+    font-weight: 100;
+}
+
+#ikon5tekst {
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 300px;
+    width: 500px;
+    justify-content: center;
+    color: white;
+    font-family: oswald;
+    font-weight: 100;
+
+
+}
+
+/*KONTAKT / BOOKNUFORSATAN SIDE START ----------------------------------------------------------*/
+
+
+#booknu {
+    background: url(/img/kontaktbaggrund.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1300px;
+    margin-top: -5%;
+}
+
+
+.kontakt-form {
+    width: 85%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: merriweather sans;
+    margin-top: 20%;
+}
+
+.kontakt-form h1 {
+    margin-top: 0;
+    font-family: just another hand;
+    font-size: 5em;
+    font-weight: 200;
+
+}
+
+.txtb {
+    border: 1px solid #396872;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 5px;
+
+
+}
+
+.txtb label {
+
+    display: block;
+    text-align: left;
+    color: #396872;
+
+}
+
+.txtb input,
+.txtb textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    margin-top: 6px;
+    font-size: 14px;
+
+
+}
+
+.btn {
+
+    display: inline-block;
+    padding: 14px 0;
+    background: #396872;
+    color: white;
+    cursor: pointer;
+    margin-top: 2px;
+    width: 100%;
+
+}
+
+
+
+/*FOOTER START-----------------------------------------------------*/
+
+.footer {
+    background-color: black;
+    width: auto;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 30px;
+    margin-top: -8%;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* footer left*/
+.footer .footer-left {
+    width: 33%;
+    padding-right: 15px;
+}
+
+.footer .about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    width: 400px;
+}
+
+.footer .about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .icons {
+    margin-top: 25px;
+}
+
+.footer .icons img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 1%;
+    cursor: pointer;
+}
+
+/* footer center*/
+.footer .footer-center {
+    width: 30%;
+    margin-top: 3%;
+}
+
+.footer .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a {
+    color: white;
+    text-decoration: none;
+}
+
+/* footer right*/
+.footer .footer-right {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.footer h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer span img {
+    width: 150px;
+}
+
+.footer .menu {
+    color: #ffffff;
+    margin: 20px 0 16px;
+}
+
+.footer .menu a {
+    display: inline-flex;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.6em;
+}
+
+.footer .menu a:hover {
+    color: orange;
+}
+
+.footer .name {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/*FOOTER MEDIA Q--------------------------------*/
+@media (max-width: 1750px) {
+
+
+    .bgimg {
+        position: relative;
+        opacity: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .bgimg {
+        background-image: url("/img/forside-stor.png");
+        height: 100%;
+        width: 100%;
+    }
+
+    p {
+        font-family: 'Merriweather Sans', sans-serif;
+        text-align: center;
+    }
+
+    #container {
+        display: flex;
+        align-items: center;
+        height: 90vh;
+    }
+
+    #venstreside {
+        margin-left: 5%;
+    }
+
+    #polaroid {
+        width: 40%;
+        margin: 5%;
+    }
+
+    #hojreside {
+        margin-right: 5%;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        display: flex;
+        padding-top: 20%;
+        width: 35%;
+        margin-left: 15%;
+        margin-bottom: 15%;
+        align-items: center;
+    }
+
+    #logo2 {
+        width: 70%;
+        margin-bottom: 10%;
+    }
+
+    #knapogtekstvenstre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 30%;
+        margin-top: 10%;
+
+    }
+
+    #freelancetekst {
+        font-size: 1.3em;
+        color: #cacaca;
+        font-family: oswald;
+        width: 100%;
+    }
+
+    #venstresideflex {
+        display: flex;
+        position: relative;
+    }
+
+
+    /*TEKST FORSIDE----------------------------------------------------------------*/
+
+    #rasguitartekst {
+        font-size: 1.3em
+    }
+
+    #rasguitartekst2 {
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    /* KNAPPER FORSIDE-------------------------------------------------------------- */
+
+    a {
+        text-decoration: none;
+    }
+
+    #button:visited {
+        text-decoration: none;
+    }
+
+    #button {
+        display: flex;
+        align-content: flex-start;
+        width: 150px;
+        margin-bottom: 20%;
+        margin-top: 30%;
+        cursor: pointer;
+        text-decoration: none;
+
+
+        padding: 9px 37px;
+        color: black;
+        font-size: 18px;
+        background-color: #facd02;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-family: 'Oswald', sans-serif;
+        line-height: 40px;
+
+    }
+
+
+    #button:hover {
+        background-color: rgb(63, 127, 191);
+        color: white;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #button2 {
+        display: flex;
+        align-content: center;
+        width: 150px;
+        margin-top: 20%;
+        line-height: 40px;
+
+
+
+        padding: 9px 37px;
+        color: white;
+        font-size: 18px;
+        background-color: #396872;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+
+    #button2:hover {
+        background-color: rgba(251, 243, 13, 0.7);
+        color: black;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+
+
+
+
+    /*FREELANCE START---------------------------------------------*/
+
+    /* VIDEO-------------------------------------------------------*/
+
+    #myvideo {
+        position: relative;
+        margin-left: 2.5%;
+
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        height: 75%;
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #baggrundfreelance {
+        background: url(/img/freelance-baggrund.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+
+        opacity: 1;
+        z-index: 1;
+    }
+
+
+    /*NAVIGATION FREELANCE---------------------------------------------------------*/
+
+
+    #freelanceheader {
+        font-family: 'Merriweather Sans', sans-serif;
+        background: url(/img/freelance-baggrund.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+
+        opacity: 1;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #freelancenav {
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 60px;
+        margin-right: 2%;
+        position: fixed;
+
+        width: 100%;
+        z-index: 2;
+    }
+
+    #headerlogofreelance {
+        width: 5%;
+        position: absolute;
+        right: 91.499%;
+        bottom: 10%;
+    }
+
+    .nav_links_freelance {
+        list-style: none;
+        color: white;
+        margin-right: 2.5%;
+    }
+
+    header a {
+        color: white;
+        font-size: 1.1em;
+    }
+
+    .nav_links_freelance li {
+        display: inline-block;
+        padding: 0px 20px;
+        margin: auto;
+
+    }
+
+    .nav_links_freelance a {
+        transition: all 0.3s ease 0s
+    }
+
+    .nav_links_freelance a:hover {
+        color: orange;
+    }
+
+
+    #buttonnav button {
+
+        width: 130px;
+
+        cursor: pointer;
+        text-decoration: none;
+        height: 40px;
+
+        padding: 9px 25px;
+        color: darkslategrey;
+        font-size: 16px;
+        background-color: #ffcd02;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+    #buttonnav button:hover {
+        background-color: rgba(255, 205, 2, 0.7);
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+
+
+    /*FREELANCE BILLEDESIDE START-------------------------------*/
+    #trinderuplogo {
+        width: 20%;
+        margin-bottom: -4%;
+        margin-top: 5%;
+        margin-left: 17%;
+    }
+
+    #freelanceflex1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 0%;
+        margin-left: 5%;
+        font-size: 1em;
+
+    }
+
+    #freelanceflex2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+        margin-top: -2%;
+    }
+
+    #freelanceflex3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    #freelanceflex4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    #freelanceflex5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .billederfreelance {
+        width: 80%;
+
+    }
+
+    .billederfreelance:hover {
+        transform: scale(1.1);
+        transition: transform .4s;
+
+    }
+
+    #billede1 {
+        position: relative;
+        bottom: 150px;
+        right: 10%;
+    }
+
+    #billede2 {
+        width: 60%;
+        margin-left: 55%;
+    }
+
+    #billede3 {
+        width: 60%;
+        margin-left: 40;
+    }
+
+    #billede4 {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #billede5 {
+        width: 50%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    .billedertekst {
+        color: #cacaca;
+        font-size: 1.2em;
+
+
+        text-align: justify;
+    }
+
+    .billedertekst2 {
+        color: #cacaca;
+        font-size: 1.5em;
+        margin-bottom: -4%;
+        width: 50%;
+        text-align: justify;
+    }
+
+    #tekst1 {
+        margin-left: 20%;
+        text-align: match-parent;
+    }
+
+    #tekst2 {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    #tekst3 {
+        margin-left: 25%;
+        width: 50%;
+        text-align: left;
+    }
+
+    #tekst4 {
+        margin-left: -12%;
+        width: 50ch;
+        text-align: left;
+        margin-top: 39px;
+    }
+
+    #tekst5 {
+        margin-left: 28%;
+        width: 50%;
+        text-align: left;
+    }
+
+    .freelanceoverskrifter {
+        margin-left: 25%;
+        width: 50%;
+        font-family: oswald;
+        color: #facd02;
+        font-size: 2.2em
+    }
+
+    #hr1 {
+        width: 50%;
+        position: relative;
+        color: #facd02;
+        border: 1px solid #facd02;
+        margin-bottom: -4.5%;
+        margin-top: -1%;
+    }
+
+
+    .freelanceoverskrifter2 {
+        margin-left: 27%;
+        margin-top: 2%;
+        font-family: oswald;
+        color: #facd02;
+        font-size: 2.2em
+    }
+
+    .freelanceoverskrifter1 {
+        margin-left: 25%;
+        margin-top: 2%;
+        font-family: oswald;
+        color: #facd02;
+        font-size: 2.2em
+    }
+
+    .freelanceoverskrifter3 {
+        margin-left: -12%;
+        margin-top: 2%;
+        font-family: oswald;
+        color: #facd02;
+        font-size: 2.2em
+    }
+
+    .freelanceoverskrifter4 {
+        margin-left: -12%;
+        margin-top: 2%;
+        font-family: oswald;
+        color: #facd02;
+        font-size: 2.2em
+    }
+
+    #hr2 {
+        width: 50%;
+        margin-right: 35%;
+        color: #facd02;
+        border: 1px solid #facd02;
+        margin-bottom: -4%;
+        margin-left: 220px;
+    }
+
+    #hr4 {
+        width: 50%;
+        position: relative;
+        color: #facd02;
+        border: 1px solid #facd02;
+        margin-bottom: -4.5%;
+        margin-top: -1%;
+        margin-left: -12%;
+    }
+
+
+    /*GEARLISTE START---------------------------------------------*/
+    #gearliste {
+        background: url(/img/gearliste-baggrund4.png);
+
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        top: -255px;
+        margin-left: -1.5%;
+        margin-bottom: -350px;
+        height: 1450px;
+    }
+
+    #gearlistebillede {
+
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: 400px;
+    }
+
+    #hr3 {
+        width: 90%;
+        border: 1.5px solid #cacaca;
+        margin-top: 25%;
+    }
+
+
+    #gearlisteoverskrift {
+        position: relative;
+        top: 24%;
+        color: #303334;
+        font-family: oswald;
+        font-size: 2em;
+        margin-left: 5%;
+        margin-bottom: 2%;
+
+    }
+
+
+    .nav_links_gear {
+        position: relative;
+        left: 0px;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+        font-family: oswald;
+        font-weight: 700;
+        color: #303334;
+        text-align: left;
+    }
+
+    .nav_links_gear li {
+        position: relative;
+        left: 20%;
+    }
+
+    .geartekst {
+        width: 65%;
+        position: relative;
+        left: 20%;
+        text-align: justify;
+        font-family: oswald;
+        font-weight: 200;
+    }
+
+    /*GEARSIDE SLUT----------------------------------------------------------*/
+
+
+    #linkhertil {
+        margin-bottom: 1%;
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+
+    #baggrundfreelance2 {
+        background: url(/img/freelance-baggrund.png);
+        margin-top: -5%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    #gearlistebillede2 {
+
+        width: 50%;
+
+    }
+
+
+
+    #klikfreelance {
+        text-align: center;
+        position: relative;
+        top: 70px;
+
+        font-family: oswald;
+        font-weight: 700;
+        font-size: 50px;
+        color: #cacaca;
+        letter-spacing: 9px;
+    }
+
+    #pil {
+        position: relative;
+
+    }
+
+    #klik {
+        color: #facd02;
+    }
+
+
+    .videoer {
+        width: 80%;
+    }
+
+    .videoer:hover {
+        cursor: pointer;
+    }
+
+
+    #videoerflex {
+        display: flex;
+        margin-top: 8%;
+        width: 100%;
+        justify-content: space-around;
+
+
+    }
+
+    .youtubevideoer {
+        display: flex;
+        width: 600px;
+        height: 400px;
+    }
+
+    .tutorialstekst {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: merriweather sans;
+        width: 80%;
+        font-size: 2em;
+
+    }
+
+    .tutorialstekst2 {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: merriweather sans;
+
+        font-size: 2em;
+        width: 80%;
+
+    }
+
+    #somelinks {
+        margin: auto;
+        width: 90%;
+    }
+
+    #somelinks li:hover {
+        transform: scale(1.1);
+        transition: transform .4s;
+        position: relative;
+    }
+
+    #somelinks li {
+        display: inline-block;
+        position: relative;
+        left: 30%;
+        top: 50px;
+
+
+    }
+
+    #somelinks img {
+        width: 30%;
+
+    }
+
+    #freelanceflex6 {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+
+    }
+
+
+    #billede6 {
+        margin-left: 25%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        width: 50%;
+    }
+
+    #tekst6 {
+        width: 50%;
+        margin-right: auto;
+        position: relative;
+
+        top: 50px;
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    #trinderuplogobund {
+        width: 50%;
+        position: relative;
+        left: 20%;
+        bottom: 25%;
+    }
+
+
+    /*RASGUITAR START--------------------------------------------------------------------------------*/
+
+    #rasguitarheader {
+        font-family: 'Merriweather Sans', sans-serif;
+        background: url(/img/freelance-baggrund.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+
+        opacity: 1;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #rasguitarnav {
+        background-color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 60px;
+        margin-right: 2%;
+        position: fixed;
+
+        width: 100%;
+        z-index: 2;
+    }
+
+    #headerlogorasguitar {
+        width: 7%;
+        position: absolute;
+        right: 90.249%;
+        bottom: 13%;
+    }
+
+    .nav_links_rasguitar {
+        list-style: none;
+        color: black;
+        margin-right: 2.5%;
+    }
+
+
+
+    .nav_links_rasguitar li {
+        display: inline-block;
+        padding: 0px 20px;
+        margin: auto;
+
+    }
+
+    .nav_links_rasguitar a {
+        transition: all 0.3s ease 0s
+    }
+
+    .nav_links_rasguitar li a {
+        color: black;
+    }
+
+    .nav_links_rasguitar a:hover {
+        color: #facd02;
+    }
+
+
+    #buttonnav2 button {
+
+        width: 150px;
+
+        cursor: pointer;
+        text-decoration: none;
+
+
+        padding: 7px 37px;
+        color: darkslategrey;
+        font-size: 18px;
+        background-color: #ffcd02;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+    #buttonnav2 button:hover {
+        background-color: rgba(255, 205, 2, 0.7);
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+    /*HVORFOR RASGUITAR------------------------------------------*/
+
+    #ledningflex {
+        display: flex;
+    }
+
+    #ledning {
+        width: 50%;
+        position: relative;
+        right: 50px;
+    }
+
+    #rasguitaroverskrift {
+        font-family: 'Just Another Hand', cursive;
+        font-size: 7em;
+        font-weight: 100;
+        position: relative;
+        right: 100px;
+        width: 17ch;
+        top: -60px;
+
+    }
+
+    #rasguitaroverskrift2 {
+        font-family: 'Just Another Hand', cursive;
+        font-size: 2em;
+        font-weight: 200;
+        position: relative;
+        right: -60px;
+        top: -60px;
+        width: 30ch;
+        text-align: center;
+
+
+    }
+
+    #ikonliste {
+        list-style: none;
+        position: relative;
+        right: 2%;
+    }
+
+    .ikoner {
+        width: 10%;
+        position: relative;
+        right: 230px;
+
+    }
+
+    #rasguitarpolaroid {
+        width: 64%;
+        margin-left: 5%;
+        position: relative;
+        bottom: 50px;
+    }
+
+    #polaroidflex {
+        display: flex;
+    }
+
+    .listetekst {
+        width: 45ch;
+        position: relative;
+        bottom: 100px;
+        right: 150px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    /*DIGITAL UNDERVISNING----------------------------------------------------------*/
+
+    #digitalundervisning {
+        background: url(/img/gronbaggrund.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 1;
+        height: 1200px;
+        margin-left: -2%;
+
+    }
+
+    #digitalundervisningoverskrift {
+        font-size: 2.852212322em;
+        text-align: center;
+        font-family: oswald;
+        color: white;
+        letter-spacing: 10px;
+        position: relative;
+        top: 150px;
+        align-content: center;
+    }
+
+    #digitalundervisningtekst {
+        color: white;
+        position: relative;
+        top: 150px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        font-size: 1.3em;
+
+
+    }
+
+
+    #rasguitarknap {
+        display: flex;
+        align-content: center;
+        width: 150px;
+        z-index: 1;
+
+
+
+        padding: 9px 37px;
+        color: #396872;
+        font-size: 18px;
+        background-color: white;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        box-shadow: 5px 10px #ffcd02;
+        position: relative;
+        left: 45%;
+        top: 200px;
+    }
+
+    #rasguitarknap:hover {
+        background-color: gainsboro;
+        font-family: 'Oswald', sans-serif;
+        transform: scale(1.1);
+        transition: transform .4s;
+    }
+
+
+
+    .videoerrasguitar {
+        width: 80%;
+        margin-top: 30%;
+        z-index: 5;
+    }
+
+
+    .videoerrasguitar:hover {
+        cursor: pointer;
+    }
+
+
+    #videoerrasguitarflex {
+        display: flex;
+        margin-left: 10%;
+        margin-top: 8%;
+        width: 90%;
+
+    }
+
+    .orangeting {
+        width: 60%;
+        position: relative;
+        bottom: 50px;
+        left: 20%;
+
+
+    }
+
+    .mailto {
+        text-decoration: none;
+        color: #cacaca;
+    }
+
+    .mailto:hover {
+        text-decoration: none;
+        color: #facd02;
+        transform: scale(1.5);
+        transition: transform .4s;
+
+    }
+
+
+    /*ANMELDELSER START---------------------------------------------------------------*/
+
+    #anmeldelser {
+        background: url(/img/hvid-baggrund.png);
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+
+    #tidligereelever {
+        font-family: oswald;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: -2%;
+        font-size: 2.85em;
+        letter-spacing: 5px;
+        text-shadow: 1px 1px 5px grey;
+    }
+
+
+    #anmeldelserflex {
+        display: flex;
+        margin-top: 7%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+    .annaogkasper {
+        width: 230px;
+    }
+
+    #annaflex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: -500px;
+    }
+
+    #kasperflex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        top: 250px;
+    }
+
+
+    #annatekst {
+        font-style: italic;
+        font-weight: 700;
+
+    }
+
+    #kaspertekst {
+        font-style: italic;
+        font-weight: 700;
+
+    }
+
+    .tegn {
+        font-size: 4em;
+    }
+
+    /*opsumering SIDE----------------------------------------------------------------------*/
+
+    #opsummering {
+        background: url(/img/opsumbaggrund.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 900px;
+    }
+
+    .opsumeroverskrift {
+        font-family: just another hand;
+        font-weight: 200;
+        font-size: 4em;
+        color: white;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 360px;
+        text-align: center;
+
+
+    }
+
+
+    #opsumbilled {
+        width: 25%;
+        margin-left: 42.5%;
+        display: flex;
+
+        position: relative;
+        top: 7%;
+
+    }
+
+    #opsumikonerflex1 {
+        font-family: Merriweather Sans, sans-serif;
+        font-size: 0.7em;
+
+        display: flex;
+        justify-content: space-between;
+        width: 90ch;
+        margin-left: 34.5%;
+        position: relative;
+        top: -290px;
+    }
+
+    #opsumikonerflex2 {
+        font-family: Merriweather Sans, sans-serif;
+        font-size: 0.7em;
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+        width: 58%;
+        top: -155px;
+
+        position: relative;
+
+    }
+
+    #ikonerogtekst1 {
+        display: flex;
+        position: relative;
+        right: 18%;
+        align-items: center;
+        color: white;
+        margin-top: 10px;
+    }
+
+    #ikonerogtekst1 img {
+
+        margin-left: 5%;
+        margin-right: 7%;
+        width: 50px;
+
+    }
+
+    #ikonerogtekst2 {
+        display: flex;
+        position: relative;
+        left: 18%;
+        align-items: center;
+        color: white;
+        margin-top: 10px;
+
+    }
+
+    #ikonerogtekst2 img {
+
+        margin-right: 7%;
+        margin-left: 7%;
+        width: 50px;
+
+    }
+
+    .opsummeringikoner {
+        width: 15%;
+    }
+
+    #ikon5 {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        top: 160px;
+        width: 50px;
+        left: 40%;
+
+    }
+
+    #ikon5tekst {
+        display: flex;
+        position: absolute;
+        top: 250px;
+        width: 500px;
+        justify-content: center;
+        color: white;
+        left: 14%;
+
+
+    }
+
+    /*KONTAKT / BOOKNUFORSATAN SIDE START ----------------------------------------------------------*/
+
+
+    #booknu {
+        background: url(/img/kontaktbaggrund.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 850px;
+
+        margin-top: -5%;
+    }
+
+
+    .kontakt-form {
+        width: 85%;
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.8);
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px 40px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 0 20px #000000b3;
+        font-family: merriweather sans;
+        margin-top: 20%;
+    }
+
+    .kontakt-form h1 {
+        margin-top: 0;
+        font-family: just another hand;
+        font-size: 5em;
+        font-weight: 200;
+
+    }
+
+    .txtb {
+        border: 1px solid #396872;
+        margin: 8px 0;
+        padding: 12px 18px;
+        border-radius: 5px;
+
+
+    }
+
+    .txtb label {
+
+        display: block;
+        text-align: left;
+        color: #396872;
+
+    }
+
+    .txtb input,
+    .txtb textarea {
+        width: 100%;
+        border: none;
+        background: none;
+        margin-top: 6px;
+        font-size: 14px;
+
+
+    }
+
+    .btn {
+
+        display: inline-block;
+        padding: 14px 0;
+        background: #396872;
+        color: white;
+        cursor: pointer;
+        margin-top: 2px;
+        width: 100%;
+
+    }
+
+
+
+    /*FOOTER START-----------------------------------------------------*/
+
+    .footer {
+        background-color: black;
+        width: auto;
+        text-align: left;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 30px;
+        margin-top: -8%;
+    }
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    /* footer left*/
+    .footer .footer-left {
+        width: 33%;
+        padding-right: 15px;
+    }
+
+    .footer .about {
+        line-height: 20px;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    .footer .about span {
+        display: block;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .footer .icons {
+        margin-top: 25px;
+    }
+
+    .footer .icons img {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        margin: 1%;
+        cursor: pointer;
+    }
+
+    /* footer center*/
+    .footer .footer-center {
+        width: 30%;
+        margin-top: 3%;
+    }
+
+    .footer .footer-center i {
+        background-color: #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+
+    .footer .footer-center i.fa-envelope {
+        font-size: 17px;
+        line-height: 38px;
+    }
+
+    .footer .footer-center p {
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    .footer .footer-center p span {
+        display: block;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    .footer .footer-center p a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* footer right*/
+    .footer .footer-right {
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    .footer h2 {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    .footer span img {
+        width: 150px;
+    }
+
+    .footer .menu {
+        color: #ffffff;
+        margin: 20px 0 16px;
+    }
+
+    .footer .menu a {
+        display: inline-flex;
+        line-height: 1.8;
+        text-decoration: none;
+        color: inherit;
+        font-size: 0.6em;
+    }
+
+    .footer .menu a:hover {
+        color: orange;
+    }
+
+    .footer .name {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+
+
+}
+
+
+@media (max-width: 767px) {
+    .footer {
+        font-size: 14px;
+    }
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+}
+
+
+@media all and (min-width: 600px) {
+    .footer span img {
+        display: none;
+    }
+
+    .footer {
+        margin-top: -2%;
+    }
+
+    label {
+        display: none;
+    }
+
+
+
+
+    @media all and (min-width: 1024px) {
+        .footer span img {
+            display: none;
+        }
+
+        .footer {
+            margin-top: -2%;
+        }
+    }
